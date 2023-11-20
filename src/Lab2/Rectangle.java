@@ -1,6 +1,6 @@
 package Lab2;
 
-class Rectangle {
+class Rectangle extends Figure{
     private double length;
     private double width;
     private double height;
@@ -21,6 +21,7 @@ class Rectangle {
     double calculateArea() {
         return length * width;
     }
+
 
     public double calculateVolume(){
         return length * width * height;

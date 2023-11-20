@@ -10,15 +10,24 @@ public class Main {
         cube.setSideLength(5);
         rect.setHeight(5);
 
+        cube.test();
+
         System.out.println("Статичний метод для площі кола: " + Circle.statSquare());
 
         System.out.println("Об'єм прямокутника: " + rect.demoCalVol(3));
+        double circleArea = Dispatcher.calculateArea(circle);
+        System.out.println("Площа кола: " + circleArea);
 
-        System.out.println("Площа кола: " + circle.calculateArea());
-        System.out.println("Площа кола: " + circle.calculateArea(180));
-        System.out.println("Площа прямокутника: " + rect.calculateArea());
-        System.out.println("Площа квадрата: " + cube.calculateArea());
-        System.out.println("Площа квадратів: " + cube.moreCube(3));
-        System.out.println("Об'єм куба: " + cube.calculateVolume());
+        // Виклик методу calculateArea() для об'єкта rectangle
+        double rectangleArea = Dispatcher.calculateArea(rect);
+        System.out.println("Площа прямокутника: " + rectangleArea);
+
+        // Виклик методу calculateArea() для об'єкта cube
+        double cubeArea = Dispatcher.calculateArea(cube);
+        System.out.println("Площа куба: " + cubeArea);
+
+        // Виклик методу calculateVolume() для об'єкта cube
+        double cubeVolume = Dispatcher.calculateVolume(cube);
+        System.out.println("Об'єм куба: " + cubeVolume);
     }
 }
