@@ -1,9 +1,9 @@
 package Lab2;
 
 class Rectangle {
-    double length;
-    double width;
-    double height;
+    private double length;
+    private double width;
+    private double height;
 
     public Rectangle(double length, double width) {
         this.length = length;
@@ -15,13 +15,50 @@ class Rectangle {
         this.height = height;
     }
 
-    public double calculateArea() {
+    public Rectangle() {
+    }
+
+    double calculateArea() {
         return length * width;
     }
+
     public double calculateVolume(){
         return length * width * height;
     }
-    public double calculateVolume(double height){
+
+    private double calculateVolume(double height){
         return length * width * height;
+    }
+
+    double demoCalVol(double height) {
+        return calculateVolume(height);
+    }
+
+
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+       if (height % 2 == 1){
+           this.height=height*height;
+       }else{
+           this.height = height;
+       }
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+    public double getLength() {
+        return length;
+    }
+    public void setLength(double length) {
+        this.length = length;
     }
 }
