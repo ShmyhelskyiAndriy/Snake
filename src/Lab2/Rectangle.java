@@ -19,7 +19,10 @@ class Rectangle extends Figure{
     }
 
     double calculateArea() {
-        return length * width;
+        return length * width * 6;
+    }
+    double calculateCubArea() {
+        return length * length * 6;
     }
 
 

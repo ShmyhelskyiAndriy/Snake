@@ -7,10 +7,13 @@ public class Main {
         Rectangle rect = new Rectangle();
 
         circle.setRadius(4);
-        cube.setSideLength(5);
+        cube.setLength(5);
         rect.setHeight(5);
+        rect.setWidth(4);
+        rect.setLength(4);
 
-        cube.test();
+        double cubArea = cube.test();
+        System.out.println("Площа куба: " + cubArea);
 
         System.out.println("Статичний метод для площі кола: " + Circle.statSquare());
 
@@ -18,16 +21,13 @@ public class Main {
         double circleArea = Dispatcher.calculateArea(circle);
         System.out.println("Площа кола: " + circleArea);
 
-        // Виклик методу calculateArea() для об'єкта rectangle
         double rectangleArea = Dispatcher.calculateArea(rect);
         System.out.println("Площа прямокутника: " + rectangleArea);
 
-        // Виклик методу calculateArea() для об'єкта cube
-        double cubeArea = Dispatcher.calculateArea(cube);
-        System.out.println("Площа куба: " + cubeArea);
+        double circleVolume = Dispatcher.calculateVolume(circle);
+        System.out.println("Об'єм куба: " + circleVolume);
 
-        // Виклик методу calculateVolume() для об'єкта cube
-        double cubeVolume = Dispatcher.calculateVolume(cube);
-        System.out.println("Об'єм куба: " + cubeVolume);
+        double rectVolume = Dispatcher.calculateVolume(rect);
+        System.out.println("Об'єм куба: " + rectVolume);
     }
 }

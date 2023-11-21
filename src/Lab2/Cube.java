@@ -2,43 +2,41 @@ package Lab2;
 
 class Cube extends Rectangle {
 
-    private double sideLength;
+    private double length;
 
 
-    public Cube(double sideLength) {
-        this.sideLength = sideLength;
+    public Cube(double length) {
+        this.length = length;
     }
 
     public Cube() {
     }
 
     int moreCube (int k){
-        int area = (int)sideLength * (int)sideLength * k;
+        int area = (int)length * (int)length * k;
         return area;
     }
     double calculateCubeArea() {
-        return calculateArea();
+        return calculateCubArea();
     }
-    void test () {
-        CubeArea fd = new CubeArea();
-        fd.calCube();
+    double test () {
+        CubeArea cb = new CubeArea();
+        return cb.calCube();
     }
     class CubeArea{
-        void calCube (){
+        double calCube (){
             System.out.println("метод вкладеного класу");
-            calculateCubeArea();
+            return calculateCubeArea();
         }
     }
     double calculateCubeVolume(){
-        return calculateArea() * sideLength;
+        return calculateCubArea() /6 * length;
     }
     double getSideLength() {
-        return sideLength;
+        return length;
     }
 
-    void setSideLength(double sideLength) {
-        this.sideLength = sideLength;
-    }
+
 
 
 }
