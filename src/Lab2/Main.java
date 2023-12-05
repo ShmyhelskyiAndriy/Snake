@@ -5,6 +5,7 @@ public class Main {
         Circle circle = new Circle();
         Cube cube = new Cube();
         Rectangle rect = new Rectangle();
+        Dispatcher disp = new Dispatcher();
 
         circle.setRadius(4);
         cube.setLength(5);
@@ -18,16 +19,8 @@ public class Main {
         System.out.println("Статичний метод для площі кола: " + Circle.statSquare());
 
         System.out.println("Об'єм прямокутника: " + rect.demoCalVol(3));
-        double circleArea = Dispatcher.calculateArea(circle);
-        System.out.println("Площа кола: " + circleArea);
+        disp.menu(1);
 
-        double rectangleArea = Dispatcher.calculateArea(rect);
-        System.out.println("Площа прямокутника: " + rectangleArea);
-
-        double circleVolume = Dispatcher.calculateVolume(circle);
-        System.out.println("Об'єм куба: " + circleVolume);
-
-        double rectVolume = Dispatcher.calculateVolume(rect);
-        System.out.println("Об'єм куба: " + rectVolume);
+        disp.menu(3);
     }
 }
