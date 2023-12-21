@@ -1,0 +1,1 @@
+package test;public interface DefStack extends IntStack {    void defoult ();}
