@@ -20,7 +20,6 @@ public class Main {
 
         System.out.println("Об'єм прямокутника: " + rect.demoCalVol(3));
         disp.menu(1);
-
         disp.menu(3);
     }
 }

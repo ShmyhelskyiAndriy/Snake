@@ -10,6 +10,7 @@ public class Dispatcher {
         } else if (number == 2) {
             System.out.println(cube.calculateArea());
         } else if (number == 3) {
+            System.out.println("menu");
             System.out.println(rect.calculateArea());
         }
     }

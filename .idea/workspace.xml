@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b6632aa-27b7-4b27-b269-f24357dcb579" name="Changes" comment="А">
+    <list default="true" id="3b6632aa-27b7-4b27-b269-f24357dcb579" name="Changes" comment="gg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Lab2/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Lab2/Dispatcher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Snake/Lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Lab2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/Dispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,33 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Ekz.Main">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test3.Box" />
+      <module name="Snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ekz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ekz.Main" />
+      <module name="Snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ekz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2.Main" />
       <module name="Snake" />
@@ -72,6 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ekz.Main" />
+        <item itemvalue="Application.Box" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test.Main" />
       </list>
@@ -121,24 +153,28 @@
       <option name="project" value="LOCAL" />
       <updated>1701762529473</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gg">
+      <created>1703193766040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703193766040</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gg">
+      <created>1703193836580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703193836580</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="F" />
     <MESSAGE value="f" />
     <MESSAGE value="А" />
-    <option name="LAST_COMMIT_MESSAGE" value="А" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Lab2/Dispatcher.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="gg" />
+    <option name="LAST_COMMIT_MESSAGE" value="gg" />
   </component>
 </project>
